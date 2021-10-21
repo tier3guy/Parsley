@@ -1,0 +1,28 @@
+.bg-dark{
+  background: var(--dark);
+}
+
+.font-light{
+  color: var(--light);
+}
+
+.font-dark{
+  color: var(--dark);
+}
+
+.font-dark-secondary{
+  color: var(--secondary-dark);
+}
+
+.font-bold{
+  font-weight: 500;
+}
+
+.anchor{
+  text-decoration: none;
+}
+
+.ico{
+  margin-left: 12px;
+  font-size: 1.3em;
+}
