@@ -1,13 +1,12 @@
 .header-top{
-  font-size: 0.95em;
+  line-height: 21px;
+  font-size: 14px;
   align-items: center;
-  height: 3em;
+  height: 3.5em;
 }
-
 
 .nav-main{
   padding: 30px;
-  border-bottom: 1px solid var(--dark);
 }
 .nav-main .links a{
   margin-right: 20px;
@@ -21,6 +20,9 @@
   font-size: 14px;
   position: relative;
   text-decoration: none;
+  line-height: 23.8px;
+  word-spacing: 0px;
+  font-family: 400;
 }
 .hover-effect:hover{
   color: var(--dark);
@@ -38,4 +40,111 @@
 }
 .hover-effect:hover::before{
   width: 100%;
+}
+
+.pdt-container{
+  width: 100%;
+}
+
+.main-section{
+  min-height: 100vh;
+  width: 100%;
+
+  padding: 5em 3em;
+}
+
+.footee{
+  min-height: 100vh;
+}
+
+.footee-left{
+  width: 40vw;
+  margin-right: 2em;
+}
+
+.footee-right{
+  width: 50vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.footee-section{
+  margin-right: 2em;
+}
+
+.footee-input{
+  font-size: 1.3em;
+  width: 35vw;
+  outline: none;
+  border: 1px solid var(--light);
+  border-radius: 3px;
+}
+
+.texture-img{
+  width: 50%;
+}
+
+.use-explantory{
+  padding: 8em 6em;
+}
+
+.use-explantory-light{
+  font-size: 14px;
+  font-family: var(--font-medium);
+  line-height: 23.8px;
+  font-weight: 400;
+  color: var(--secondary-dark);
+}
+.use-explantory-bold{
+  line-height: 39.9px;
+  font-family: "Zapf Humanist", serif;
+  padding-bottom: 1em;
+  border-bottom: 2px solid var(--dark);
+}
+.use-element-font-bold, .use-element-font-light{
+  font-size: 14px;
+  font-family: var(--font-medium);
+  line-height: 22.4px;
+}
+.use-element-font-light{
+  color: var(--secondary-dark);
+}
+
+.chatBoxIcon{
+  padding: 5px;
+  position: fixed;
+  top: 80vh;
+  left: 94vw;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--light);
+}
+.far{
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+.copyright{
+  border-top: 3px solid var(--light);
+  margin: 20px 0px;
+}
+
+.carousal-section{
+  min-height: 100vh;
+  padding: 6em 4em;
+}
+
+.img-cor{
+  height: 60vh;
+  margin-left: 1em;
+}
+
+.carousal-section-bold{
+  line-height: 39.9px;
+  font-family: "Zapf Humanist", serif;
 }

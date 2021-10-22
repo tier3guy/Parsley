@@ -11,15 +11,14 @@
   /*-------- Declaring Font Variable -------*/
   --font-main: "Suisse Intl";
   --font-medium : "Suisse Int'l Medium";
+  --font-regula : "Suisse Regular";
   /*----------------------------------------*/
 }
 
 body {
   margin: 0;
   padding: 0px;
-
   box-sizing: border-box;
-
   background: var(--light);
 }
 

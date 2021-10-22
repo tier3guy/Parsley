@@ -1,5 +1,5 @@
 export default function Navitems(props) {
   return (
-    <a href = {props.link} className = "font-dark-secondary font-bold hover-effect font-dark">{props.name}</a>
+    <a href = {props.link} className = "font-dark hover-effect">{props.name}</a>
   )
 }

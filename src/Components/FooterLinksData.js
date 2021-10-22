@@ -53,7 +53,12 @@ const FooteeData = [
     headerName : "Location preferences",
     arrayData : [
       {
-        name : "Shipping: Hong Kong (S.A.R)\nLanguage:English",
+        name : "Shipping: Hong Kong (S.A.R)",
+        link : "",
+        icon : false
+      },
+      {
+        name : "Language:English",
         link : "",
         icon : false
       }
