@@ -42,6 +42,9 @@
 .border{
   border: 1px solid var(--dark);
 }
+.border-light{
+  border: 1px solid var(--dark);
+}
 
 .rot-45{
   margin-left: 10px;
@@ -64,3 +67,66 @@
 .ml-2{
   margin-left: 10px;
 }
+
+.bb{
+  border-bottom: 2px solid var(--dark);
+}
+
+.bb-light{
+  border-bottom: 1px solid var(--secondary-light);
+}
+
+.hr-dark{
+  height: 1px;
+  background: var(--secondary-dark);
+}
+
+.img-hero{
+
+  margin-top: 10em;
+}
+.btn-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.btn-custom{
+  border: none;
+  outline: none;
+  background: var(--dark);
+  height: 4em;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.btn-custom:hover{
+  background: black;
+}
+
+.custom-btn{
+  position: absolute;
+  right: 2em;
+  top: 2em;
+
+  color: var(--dark);
+}
+.custom-btn:focus, .btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.hover-color:hover{
+  color: var(--light);
+}
+
+.hover-underline{
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.hover-underline:hover{
+  text-decoration: underline;
+}
+
+
+.modal.fade .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(.5);transform: translate(0,0)scale(.5);}
+.modal.show .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(1);transform: translate(0,0)scale(1);}

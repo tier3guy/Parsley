@@ -8,7 +8,7 @@ import himani2 from '../Assets/himani2.webp';
 function CarusalSection() {
   return (
     <section className = "carousal-section">
-      <div className = "info">
+      <div className = "info mb-5">
         <h2 className = "carousal-section-bold">Accompany with</h2>
         <p>Exceptionally mild Parsley Seed Facial Cleansing Oil removes all traces of makeup and grime and leaves skin clean and soft; complement twice weekly with Purifying Facial Exfoliant Paste and Parsley Seed Cleansing Masque to polish, purify and thoroughly refresh skin.</p>
       </div>

@@ -1,27 +1,26 @@
 import React from 'react'
+import CanvaElement from './CanvaElement'
+import UseElement from './UseElement'
 
 function OffCanva() {
   return (
-    <div>
-      <div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-          <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div className="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-          </div>
-          <div className="dropdown mt-3">
-            <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-              Dropdown button
-            </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a className="dropdown-item" href="#">Action</a></li>
-              <li><a className="dropdown-item" href="#">Another action</a></li>
-              <li><a className="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+    <div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div className = "canva-main">  
+        <button type="button" className="btn-close text-reset custom-btn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div className = "d-flex canva-container">
+          <p className = "use-element-font-bold">Shipping fees and delivery times</p>
+          <div className = "hr-dark w-100 mb-3"></div>
+          <p className = "use-element-font-bold">Crown Logistics (Hong Kong)</p>
+
+            <CanvaElement main = "Orders $400 and over" sub = "Complimentary"/>
+            <CanvaElement main = "Orders below $400" sub = "$40"/>
+            <CanvaElement main = "Urban areas" sub = "2-3 buisness days"/>
+            <CanvaElement main = "Outlying Islands" sub = "3-5 buisness days"/>
+
+          <div className = "hr-dark w-100 mb-3"></div>
+          <p className = "use-element-font-bold">Carbon neutral shipping</p>
+          <p className = "use-element-font-light">We offset operational emissions to ensure the delivery of every order is carbon neutral.</p>
+          <div className = "hr-dark w-100 mb-3"></div>
         </div>
       </div>
     </div>

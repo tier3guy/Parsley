@@ -43,22 +43,22 @@
 }
 
 .pdt-container{
-  width: 100%;
+  width: 68%;
 }
 
 .main-section{
   min-height: 100vh;
   width: 100%;
-
-  padding: 5em 3em;
+  padding: 7em 3em;
 }
 
 .footee{
-  min-height: 100vh;
+  height: 105vh;
+  background: #252525;
 }
 
 .footee-left{
-  width: 40vw;
+  width: 35vw;
   margin-right: 2em;
 }
 
@@ -129,9 +129,13 @@
   border: none;
 }
 
+.rl-container{
+  border-bottom: 3px solid var(--light);
+}
+
 .copyright{
-  border-top: 3px solid var(--light);
   margin: 20px 0px;
+  padding-left: 3em;
 }
 
 .carousal-section{
@@ -148,3 +152,88 @@
   line-height: 39.9px;
   font-family: "Zapf Humanist", serif;
 }
+
+.dot{
+  height: 4px;
+  width: 4px;
+  background: var(--dark);
+  border-radius: 2px;
+  margin: 0px 10px;
+}
+.links{
+  align-items: center;
+  justify-content: center;
+}
+
+.pdt-details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 45%;
+}
+
+.custom-hero-text{
+  font-weight: 370;
+}
+
+#offcanvasExample{
+  width: 50vw;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.lower-title{
+  font-size: 15px;
+  font-family: var(--font-medium);
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: 400;
+
+  border-bottom: 1px solid var(--light);
+}
+
+.checkbox-cont{
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--dark);
+  border-radius: 7.5px;
+  padding: 3px;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.checkbox-inner{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.fill{
+  background: var(--dark);
+}
+
+.cont-checkbox-size{
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.canva-container{
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  height: 100vh;
+  margin: auto;
+}
+
+.canva-main{
+  background: var(--secondary-light);
+
+}
+
+.img-hero{
+  transition: all 0.3s;
+}
+

@@ -13,8 +13,8 @@ function Hero() {
   return (
     <section className = "main-section d-flex justify-content-between">
       <AesopLogo/>
-      <div className = "pdt-container border d-flex w-50" >
-        <img src = {bottleImg} style = {{width : imgSize.width, height : imgSize.height}} />
+      <div className = "pdt-container d-flex" >
+        <img src = {bottleImg} style = {{width : imgSize.width, height : imgSize.height}} className = "img-hero"/>
         <PdtDetails/>
       </div>
     </section>

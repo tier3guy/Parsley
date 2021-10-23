@@ -13,7 +13,10 @@ export default function Navbar(){
           <Navitems name = 'Search'/>
         </div>
         <div className = "profile">
-          <Navitems name = 'Login'/>
+          <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal">
+            <Navitems name = 'Login'/>
+          </button>
+            
           <Navitems name = 'Cart'/>
         </div>
       </div>
